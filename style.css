@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Mono', monospace;
+    background: #020202;
+}
+
+.material-icons {
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.navbar-brand> .material-icons{
+    font-size: 40px;
+}
+
+.bg-image{
+    height:100%;
+    background: url('images/bgfinalpng.png');
+    background-size:cover;
+    position:relative;
+    opacity: 100%;
+    z-index: -1;
+}
+
+.c-item {
+    height: 650px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.9);
+}
+
+.pacman-gif{
+    align-items: center;
+    max-width:200px;
+    padding-bottom: 0px;
+}
+
+.project-section{
+    padding-bottom: 40px;
+}
+
+.nav-link{
+    color: #fac505;
+}
+.navbar-brand{
+    color: #fac505;
+}
+
+.hydrometer{
+    text-align:left;
+    color:aqua;
+    padding-left: 50px;
+}
+
+.hobbies> .material-symbols-outlined{
+    font-size:50px;
+    color:#7b03fc;
+}
+
+.h-text{
+    color: #fac505;
+}
+
+.container-artworks {
+    margin: 30px;
+}
+
+.art-img{
+    display: block;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.thumbnail:hover{
+    transform:translateY(-4px);
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.thumbnail:hover .overlay {
+    opacity: 1;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;        /* Full width of its parent container */
+    padding-top: 160.78%; /* Aspect ratio of 16:9 (for a typical rectangle) */
+
+}
+
+
+
+
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.img-container:hover .art-img {
+    transform: scale(1.1); /* Optional: scale effect on hover */
+}
+
+.art-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social{
+    max-width: 100%;
+    padding-left:0;
+    padding-right: 0
+}
+
+.social-icon{
+   padding-bottom: 50px;
+   padding-top: 50px;
+}
+
+.arcade-gif{
+    margin-top: 100px;
+}
+
+.arcade-pic{
+   max-width: 900px;
+}
+
+.art-bg{
+    background-image: linear-gradient(#bf0047, black 100%);
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background: #28044d;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+.h3-form{
+    color: #fac505;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.input-form{
+    border:0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.button-form {
+    padding: 15px;
+    background: #fac505;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.contact-text{
+    padding-bottom: 70px;
+}
